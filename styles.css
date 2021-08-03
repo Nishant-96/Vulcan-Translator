@@ -1,0 +1,74 @@
+*{
+
+}
+
+body{
+    background-color: darkred;;
+}
+
+.container{
+    max-width: 50%;
+    text-align: center;
+    background-color: black;
+    color: darkred;
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    padding: 1rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    font-size: 23px;
+}
+.heading{
+    font-weight: bolder;
+}
+
+textarea{
+    width:90%;
+    height:10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    background: transparent;
+    border: 2px solid;
+    border-color: deeppink;
+    border-width: bold;
+    border-radius:0.5rem;
+    text-align: center;
+    font-size:large;
+    color:deeppink;
+}
+button{
+    display: block;
+    margin-top:1rem;
+    margin-left:10rem;
+    margin-right:10rem;
+    padding: 0.5rem;
+    background:transparent;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 0.8rem;
+    color: red;
+    border-color: darkred;
+    cursor:pointer;
+}
+
+#output-description{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    font-size:larger;
+}
+
+
+#outputBox{
+    text-align:center;
+    border: 1.5px solid deeppink;
+    border-radius:0.5rem;
+    width:70%;
+    height:10vh;
+    padding: 1rem;
+    margin:auto;
+    color: deeppink;
+    background: transparent;
+}
