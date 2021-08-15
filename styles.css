@@ -14,6 +14,7 @@ body{
     display: flex;
     flex-direction:column;
     margin: auto;
+    margin-top: 9rem;
     padding: 1rem;
     padding-bottom: 8rem;
     text-align: center;
