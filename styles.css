@@ -7,14 +7,14 @@ body{
 }
 
 .container{
-    max-width: 50%;
+    max-width: 60%;
     text-align: center;
     background-color: black;
     color: darkred;
     display: flex;
     flex-direction:column;
     margin: auto;
-    margin-top: 3.5rem;
+    margin-top: 2rem;
     padding: 1rem;
     padding-bottom: 8rem;
     text-align: center;
@@ -25,33 +25,34 @@ body{
 }
 
 textarea{
-    width:90%;
-    height:10vh;
+    
     display: block;
-    margin: 1rem;
-    padding: 1rem;
-    background: transparent;
-    border: 2px solid;
-    border-color: deeppink;
-    border-width: bold;
-    border-radius:0.5rem;
+    font-size: large;
+    width: 90%;
+    margin:auto;
+    min-height: 10vh;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
     text-align: center;
-    font-size:large;
+    background: transparent;
+    border: 1.5px solid deeppink;
+    border-width: bold;
     color:deeppink;
 }
 button{
+  
     display: block;
-    margin-top:1rem;
-    margin-left:10rem;
-    margin-right:10rem;
+    margin: 1rem auto;
     padding: 0.5rem;
-    background:transparent;
+    height: 50px;
+    width: 150px;
     font-weight: bold;
     font-size: medium;
+    background-color:transparent;
+    color:red;
+    border: 1.5px solid deeppink;
     border-radius: 0.8rem;
-    color: red;
-    border-color: darkred;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #output-description{
@@ -63,13 +64,14 @@ button{
 
 
 #outputBox{
+    width: 90%;
+    height: 10vh;
     text-align:center;
-    border: 1.5px solid deeppink;
-    border-radius:0.5rem;
-    width:70%;
-    height:10vh;
-    padding: 1rem;
+    padding: 0.5rem;
     margin:auto;
+    font-size: large;
+    background-color: transparent;
     color: deeppink;
-    background: transparent;
+    border: 1.5px solid deeppink;
+    border-radius:0.8rem;
 }
