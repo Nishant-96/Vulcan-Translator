@@ -31,4 +31,5 @@ function clickHandler(){
 function errorHandler(error){
     console.log("Error Occured",error);
     alert("Error: Server Issue Try Again After Sometime")
+    outputBox.innerText="Something wrong with server: try again after sometime."
 }
